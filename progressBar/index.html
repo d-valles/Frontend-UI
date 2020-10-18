@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Progress Bar</title>
+  </head>
+  <body>
+    <div class="bar-container">
+      <div class="bar">
+      
+      </div>
+    </div>
+    <div class="bar-container">
+      <div class="bar-two">
+      </div>
+    </div>
+    <div class="buttons">
+      <button onclick="load(2)">Click me JS</button>
+    </div>
+    <div class="buttons">
+        <button onclick="fillBar()">Click me CSS</button>
+    </div>
+  </body>
+  <style>
+    body {
+      background-color: lightgray;
+    }
+
+    .bar-container {
+      width: 200px;
+      height: 30px;
+      background-color: grey;
+      margin: 10px;
+      text-align: center;
+    }
+
+    .bar {
+      height: 100%;
+      width: 0%;
+      background-color: green;
+    }
+
+    .bar-two {
+      height: 100%;
+      width: 0%;
+      background-color: green;
+    }
+
+    button {
+      width: 100px
+    }
+
+    .buttons {
+      display: inline;
+    }
+  </style>
+  <script src="script.js"></script>
+</html>
